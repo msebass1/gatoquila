@@ -1,0 +1,39 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}
+Adopta
+{% endblock %}
+
+{% block content %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container" style="position: relative;">
+	
+<div class="row">
+
+	{% for gato in gatos %}
+
+	<div class="col-md-3" id="cardm">
+		<div class="card" style="width: 18rem;">
+			<img class="d-block w-100" src="{{ gato.foto }}">
+		    <div class="card-body">
+		    <h5 class="card-title">{{ gato.nombre }}</h5>
+		    <p class="card-text">{{ gato.descripcion }}
+		    <a href="{% url 'post_new' %}" class="btn btn-light">Aprender más</a>
+		    
+		  </div>
+		</div>
+	</div>
+
+	{% endfor %}
+</div>
+</div>
+
+
+
+{% endblock %}

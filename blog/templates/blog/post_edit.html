@@ -1,0 +1,31 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}
+Contacto
+{% endblock %}
+
+{% block content %}
+<div class="row">
+	<div class="col-md-4">
+		asdkjsaijf
+	</div>
+	</div>
+
+<div class="row">
+	<div class="col-md-4">
+		asdkjsaijf
+	</div>
+</div>
+	<div class="container">
+		<div class="jumbotron">
+			<h2>contacto</h2>
+			<form method="POST" class="post-form">
+				<div class="form-group">
+					{% csrf_token %}
+			    	{{ form.as_p }}
+			    	<button type="submit" class="save btn btn-default">Enviar</button>
+				</div>
+			</form>	
+		</div>
+	</div>
+{% endblock %}

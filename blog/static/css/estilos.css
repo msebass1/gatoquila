@@ -1,0 +1,64 @@
+#indeximg{
+  background-image: url("https://marvel-live.freetls.fastly.net/canvas/2020/2/43dcb579083f40a78e50b4d25bae6739?quality=95&fake=.png");
+  
+}
+#iconh{
+  color: #969FAA;
+  font-family: PT Serif Caption;
+  font-size: 46px;
+  font-weight: 350;
+  line-height: 71px;
+  width: 277px;
+  text-align: right;
+}
+#topbar{
+  background-color: #000000;
+  width: 1440px;
+  height: 138px;
+}
+#topfont{
+   margin-top: 4rem !important;
+}
+#topspace{
+	margin-top: 4rem !important;
+}
+#imgcard{
+	height: 75%;
+	width: 75%;
+}
+#space{
+	margin: 5rem !important;
+  font-family: PT Serif Caption;
+
+}
+#imgp{
+    margin: 30px;
+    width: 90%;
+}
+#central{
+	color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #423B26;
+}	
+#jumbo{
+	background-color: #AAA096;
+}
+#letr{
+  margin-right: 10%;
+  margin-left: 10%;
+  color: #FFFFFF;
+  font-family: Bree Serif;
+  font-size: 40px;
+  line-height: 66px;
+  text-align: left;
+}
+#cardm{
+	margin: 2rem !important;
+}
+#imgl{
+	  order-radius: 100px;
+	  width: 405px;
+	  height: 270.27px;
+}
+  

@@ -1,0 +1,19 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+	{% if post.published_date %}
+			<div class="container">
+				<div class="jumbotron">
+					<div class="row">
+						<p> Publicado el : {{ post.published_date }} </p>						
+					</div>
+					
+					<h2>{{ post.email }}</h2>
+					<p>{{  post.nombre }}</p>
+					<p>{{ post.text|linebreaksbr }}</p>
+					<a class="btn btn-default " href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil">Eliminar</span></a>
+				</div>
+			</div>
+	{% endif %}
+	
+{% endblock %}

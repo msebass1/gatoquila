@@ -1,0 +1,27 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}
+Blog
+{% endblock %}
+
+
+{% block content %}
+<br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br>
+
+<div class="container jumbotron">
+		<form method="POST" class="post-form">
+				<div class="form-group">
+					{% csrf_token %}
+					{{ forma_articulo.as_p }}
+			    	<button type="submit" class="save btn btn-default">Enviar</button>
+				</div>
+			</form>	
+</div>
+
+{% endblock %}

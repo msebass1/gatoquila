@@ -1,0 +1,24 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}
+Blog
+{% endblock %}
+
+{% block content %}
+
+<div class="container jumbotron">
+	<div>
+    <h1><a href="/">Django Girls Blog</a></h1>
+</div>
+
+{% for articulo in articulos %}
+    <div>
+        <p> publicado: {{ articulo.published_date }}</p>
+        <h2><a href="">{{ articulo.title }}</a></h2>
+        <p>{{ articulo.texto }}</p>
+        <img src="{{ articulo.foto }}">
+    </div>
+{% endfor %}
+	</div>
+
+{% endblock %}
