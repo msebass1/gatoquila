@@ -19,7 +19,7 @@ django-widget-tweaks==1.4.5
 docopt==0.6.2
 env==0.1.0
 et-xmlfile==1.0.1
-httplib2==0.9.2
+httplib2==0.19.0
 idna==2.6
 jdcal==1.4.1
 jk-pwdinput==0.2017.1.17
